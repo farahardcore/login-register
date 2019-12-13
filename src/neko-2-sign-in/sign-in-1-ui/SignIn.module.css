@@ -1,0 +1,11 @@
+.content {
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.rememberMe {
+    display: flex;
+    justify-content: center;
+}
