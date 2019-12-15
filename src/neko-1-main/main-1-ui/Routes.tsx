@@ -15,7 +15,6 @@ const Routes: React.FC = () => {
     return (
         <div>
             <Route exact path={START_GH_PAGES_PATH} render={() => <Redirect to={SIGN_IN_PATH}/>}/>
-
             <Route path={SIGN_IN_PATH} render={() => <SignInPage/>}/>
             <Route path={REGISTER_PATH} render={() => <RegisterPage/>}/>
             <Route path={FORGOT_PATH} render={() => <ForgotPage/>}/>
